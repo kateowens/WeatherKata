@@ -7,6 +7,7 @@
 //
 
 #import "WAKWeatherService.h"
+#import "AFNetworking.h"
 
 @implementation WAKWeatherService
 

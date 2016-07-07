@@ -1,12 +1,29 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - Kiwi (2.3.1)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.0)
   - Kiwi
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
 
-PODFILE CHECKSUM: 6b0f5cf3c51df905f9feaea2ccbff67b988f118e
+PODFILE CHECKSUM: e952dee33e6af87b5f61bdf5753cdd1f27055d69
 
 COCOAPODS: 1.0.1

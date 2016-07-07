@@ -7,6 +7,7 @@
 //
 
 #import <Kiwi/Kiwi.h>
+#import <AFNetworking.h> 
 #import "WAKWeatherService.h"
 
 SPEC_BEGIN(WeatherAPISpec)
